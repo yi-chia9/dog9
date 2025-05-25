@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fdf6f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: #ffcc66;
+  margin: 0;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.dog {
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dog img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#breed-info {
+  background: #ffeecc;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
