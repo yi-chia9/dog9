@@ -1,24 +1,162 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>狗狗品種辨識</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>狗狗品種介紹</title>
+  <link rel="stylesheet" href="dog.css">
 </head>
 <body>
-  <h1>狗狗品種辨識</h1>
+  <h1>狗狗品種介紹</h1>
   <div class="gallery">
-    <div class="dog" onclick="showBreed('黃金獵犬')">
-      <img src="golden.jpg" alt="黃金獵犬" />
-      <p>點我看品種</p>
-    </div>
-  </div>
-  <div id="breed-info" class="hidden">
-    <p id="breed-name"></p>
-    <button onclick="closeInfo()">關閉</button>
-  </div>
+    <a href="breeds/labrador.html">
+      <img src="images/labrador.jpg" alt="拉布拉多犬">
+      <p>拉布拉多</p>
+    </a>
+    <a href="breeds/shiba.html">
+      <img src="images/shiba.jpg" alt="柴犬">
+      <p>柴犬</p>
+    </a>
+    <a href="breeds/bulldog.html">
+      <img src="images/bulldog.jpg" alt="鬥牛犬">
+      <p>鬥牛犬</p>
+    </a>
+    <a href="breeds/husky.html">
+      <img src="images/husky.jpg" alt="哈士奇">
+      <p>哈士奇</p>
+     </a>
+    <a href="breeds/pyrenees.html">
+      <img src="images/pyrenees.jpg" alt="大白熊">
+      <p>大白熊</p>
+     </a>
+    <a href="breeds/bordercollie.html">
+      <img src="images/bordercollie.jpg" alt="邊境牧羊犬">
+      <p>邊境牧羊犬</p>
+     </a>
+    <a href="breeds/samoyed.html">
+      <img src="images/samoyed.jpg" alt="薩摩耶">
+      <p>薩摩耶</p>
+     </a>
+    <a href="breeds/germanshepherd.html">
+     <img src="images/germanshepherd.jpg" alt="德國牧羊犬">
+     <p>德國牧羊犬</p>
+    </a>
+    <a href="breeds/maltese.html">
+      <img src="images/maltese.jpg" alt="馬爾濟斯">
+     <p>馬爾濟斯</p>
+    </a>
+    <a href="breeds/golden.html">
+     <img src="images/golden.jpg" alt="黃金獵犬">
+     <p>黃金獵犬</p>
+     </a>
+    <a href="breeds/poodle.html">
+     <img src="images/poodle.jpg" alt="貴賓">
+     <p>貴賓</p>
+     </a>
+    <a href="breeds/doberman.html">
+     <img src="images/doberman.jpg" alt="杜賓">
+     <p>杜賓</p>
+     </a>
+    <a href="breeds/rottweiler.html">
+     <img src="images/rottweiler.jpg" alt="羅威那">
+     <p>羅威那</p>
+     </a>
+    <a href="breeds/chihuahua.html">
+     <img src="images/chihuahua.jpg" alt="吉娃娃">
+     <p>吉娃娃</p>
+     </a>
+    <a href="breeds/pomeranian.html">
+     <img src="images/pomeranian.jpg" alt="博美">
+     <p>博美</p>
+     </a>
+    <a href="breeds/wolfdog.html">
+    <img src="images/wolfdog.jpg" alt="捷克狼犬">
+     <p>捷克狼犬</p>
+     </a>
+    <a href="breeds/dachshund.html">
+     <img src="images/dachshund.jpg" alt="臘腸狗">
+      <p>臘腸狗</p>
+     </a>
+    <a href="breeds/oldenglish.html">
+      <img src="images/oldenglish.jpg" alt="古代牧羊犬">
+       <p>古代牧羊犬</p>
+     </a>
+    <a href="breeds/schnauzer.html">
+     <img src="images/schnauzer.jpg" alt="雪納瑞">
+      <p>雪納瑞</p>
+     </a>
+    <a href="breeds/beagle.html">
+     <img src="images/beagle.jpg" alt="米格魯">
+      <p>米格魯</p>
+     </a>
+    <a href="breeds/yorkshire.html">
+     <img src="images/yorkshire.jpg" alt="約克夏">
+      <p>約克夏</p>
+     </a>
+    <a href="breeds/corgi.html">
+     <img src="images/corgi.jpg" alt="柯基">
+      <p>柯基</p>
+     </a>
+    <a href="breeds/volpino.html">
+     <img src="images/volpino.jpg" alt="狐狸犬">
+      <p>狐狸犬</p>
+     </a>
+     <a href="breeds/teddy.html">
+  <img src="images/teddy.jpg" alt="泰迪">
+</a>
+<a href="breeds/centralasian.html">
+  <img src="images/centralasian.jpg" alt="中亞牧羊犬">
+</a>
+<a href="breeds/cocker.html">
+  <img src="images/cocker.jpg" alt="可卡犬">
+</a>
+<a href="breeds/springer.html">
+  <img src="images/springer.jpg" alt="史賓格">
+</a>
+<a href="breeds/greyhound.html">
+  <img src="images/greyhound.jpg" alt="靈緹">
+</a>
+<a href="breeds/akita.html">
+  <img src="images/akita.jpg" alt="秋田">
+</a>
+<a href="breeds/bernese.html">
+  <img src="images/bernese.jpg" alt="伯恩山">
+</a>
+<a href="breeds/alaskan.html">
+  <img src="images/alaskan.jpg" alt="阿拉斯加犬">
+</a>
+<a href="breeds/aussie.html">
+  <img src="images/aussie.jpg" alt="澳洲牧羊犬">
+</a>
+<a href="breeds/pug.html">
+  <img src="images/pug.jpg" alt="巴哥犬">
+</a>
+<a href="breeds/mastiff.html">
+  <img src="images/mastiff.jpg" alt="藏獒">
+</a>
+<a href="breeds/caucasian.html">
+  <img src="images/caucasian.jpg" alt="高加索犬">
+</a>
+<a href="breeds/bichon.html">
+  <img src="images/bichon.jpg" alt="比熊">
+</a>
+<a href="breeds/bullterrier.html">
+  <img src="images/bullterrier.jpg" alt="牛頭梗">
+</a>
+    <a href="breeds/chowchow.html">
+      <img src="images/chowchow.jpg" alt="鬆獅犬">
+    </a>
+    <a href="breeds/dalmatian.html">
+      <img src="images/dalmatian.jpg" alt="大麥町犬">
+    </a>
+    <a href="breeds/papillon.html">
+      <img src="images/papillon.jpg" alt="蝴蝶犬">
+    </a>
+    <a href="breeds/shetland.html">
+      <img src="images/shetland.jpg" alt="喜樂蒂">
+    </a>
 
-  <script src="script.js"></script>
+
+  </div>
 </body>
 </html>
